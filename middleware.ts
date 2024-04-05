@@ -9,7 +9,7 @@ export default authMiddleware({
   // Prevent the specified routes from accessing
   // authentication information:
   // ignoredRoutes: ['/no-auth-in-this-route'],
-  publicRoutes : ['/', '/api/webhook/clerk'],
+  publicRoutes : ['/', '/api/webhook/clerk', '/api/uploadthing'],
   ignoredRoutes: ['/api/webhook/clerk']
 });
  
